@@ -1,53 +1,24 @@
+// src/clases/Vehiculo.java
 package clases;
 
 public class Vehiculo {
-    // Atributos privados
-    private String patente;
     private String marca;
-    private int anio;
-    private double capacidadCargaKg;
+    private String modelo;
 
-    // Constructor
-    public Vehiculo(String patente, String marca, int anio, double capacidadCargaKg) {
-        this.patente = patente;
+    public Vehiculo(String marca, String modelo) {
         this.marca = marca;
-        this.anio = anio;
-        this.capacidadCargaKg = capacidadCargaKg;
-    }
-
-    // Getters
-    public String getPatente() {
-        return patente;
+        this.modelo = modelo;
     }
 
     public String getMarca() {
         return marca;
     }
 
-    public int getAnio() {
-        return anio;
+    public String getModelo() {
+        return modelo;
     }
 
-    public double getCapacidadCargaKg() {
-        return capacidadCargaKg;
+    public String getDescripcion() {
+        return "Vehículo - Marca: " + marca + ", Modelo: " + modelo;
     }
-
-    // Setters
-    public void setPatente(String patente) {
-        this.patente = patente;
-    }
-
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-
-    public void setAnio(int anio) {
-        this.anio = anio;
-    }
-
-    public void setCapacidadCargaKg(double capacidadCargaKg) {
-        this.capacidadCargaKg = capacidadCargaKg;
-    }
-
-
 }
