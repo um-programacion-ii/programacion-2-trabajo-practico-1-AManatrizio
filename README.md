@@ -1,4 +1,8 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-JQrLgaz)
 # 🧠 Trabajo Práctico: Sistema de Gestión de Vehículos (Java + SOLID + GitHub)
+
+## 👨‍🎓 Información del Alumno
+- **Nombre y Apellido**: Antonella Manatrizio
 
 ## 📌 Objetivo General
 
@@ -28,7 +32,7 @@ El trabajo está dividido en etapas. Cada etapa deberá registrarse como un **Mi
 ### Etapa 1: Clases Básicas
 - Crear la clase `Vehiculo` con atributos: `patente`, `marca`, `año`, `capacidadCargaKg`.
 - Agregar constructor, getters/setters y método `mostrarInformacion()`.
-- Crear la clase `Main` que cree e imprima al menos 3 vehículos.
+- Crear la clase `main.Main` que cree e imprima al menos 3 vehículos.
 
 ### Etapa 2: Aplicar SRP
 - Extraer la responsabilidad de impresión a una nueva clase `VehiculoPrinter`.
